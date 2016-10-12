@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		426F12551DAE3A0300BF347A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F12541DAE3A0300BF347A /* main.m */; };
+		426F12581DAE3A0300BF347A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F12571DAE3A0300BF347A /* AppDelegate.m */; };
+		426F125B1DAE3A0300BF347A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F125A1DAE3A0300BF347A /* ViewController.m */; };
+		426F125E1DAE3A0300BF347A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426F125C1DAE3A0300BF347A /* Main.storyboard */; };
+		426F12601DAE3A0300BF347A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426F125F1DAE3A0300BF347A /* Assets.xcassets */; };
+		426F12631DAE3A0300BF347A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426F12611DAE3A0300BF347A /* LaunchScreen.storyboard */; };
+		426F126E1DAE3A0400BF347A /* BookMyDarshan_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F126D1DAE3A0400BF347A /* BookMyDarshan_2Tests.m */; };
+		426F12791DAE3A0400BF347A /* BookMyDarshan_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F12781DAE3A0400BF347A /* BookMyDarshan_2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426F126A1DAE3A0400BF347A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426F12481DAE3A0300BF347A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426F124F1DAE3A0300BF347A;
+			remoteInfo = BookMyDarshan_2;
+		};
+		426F12751DAE3A0400BF347A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426F12481DAE3A0300BF347A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426F124F1DAE3A0300BF347A;
+			remoteInfo = BookMyDarshan_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		426F12501DAE3A0300BF347A /* BookMyDarshan_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMyDarshan_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426F12541DAE3A0300BF347A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		426F12561DAE3A0300BF347A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		426F12571DAE3A0300BF347A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		426F12591DAE3A0300BF347A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		426F125A1DAE3A0300BF347A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		426F125D1DAE3A0300BF347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		426F125F1DAE3A0300BF347A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426F12621DAE3A0300BF347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		426F12641DAE3A0300BF347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426F12691DAE3A0400BF347A /* BookMyDarshan_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMyDarshan_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426F126D1DAE3A0400BF347A /* BookMyDarshan_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMyDarshan_2Tests.m; sourceTree = "<group>"; };
+		426F126F1DAE3A0400BF347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426F12741DAE3A0400BF347A /* BookMyDarshan_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMyDarshan_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426F12781DAE3A0400BF347A /* BookMyDarshan_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMyDarshan_2UITests.m; sourceTree = "<group>"; };
+		426F127A1DAE3A0400BF347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426F124D1DAE3A0300BF347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F12661DAE3A0400BF347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F12711DAE3A0400BF347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426F12471DAE3A0300BF347A = {
+			isa = PBXGroup;
+			children = (
+				426F12521DAE3A0300BF347A /* BookMyDarshan_2 */,
+				426F126C1DAE3A0400BF347A /* BookMyDarshan_2Tests */,
+				426F12771DAE3A0400BF347A /* BookMyDarshan_2UITests */,
+				426F12511DAE3A0300BF347A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		426F12511DAE3A0300BF347A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426F12501DAE3A0300BF347A /* BookMyDarshan_2.app */,
+				426F12691DAE3A0400BF347A /* BookMyDarshan_2Tests.xctest */,
+				426F12741DAE3A0400BF347A /* BookMyDarshan_2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426F12521DAE3A0300BF347A /* BookMyDarshan_2 */ = {
+			isa = PBXGroup;
+			children = (
+				426F12561DAE3A0300BF347A /* AppDelegate.h */,
+				426F12571DAE3A0300BF347A /* AppDelegate.m */,
+				426F12591DAE3A0300BF347A /* ViewController.h */,
+				426F125A1DAE3A0300BF347A /* ViewController.m */,
+				426F125C1DAE3A0300BF347A /* Main.storyboard */,
+				426F125F1DAE3A0300BF347A /* Assets.xcassets */,
+				426F12611DAE3A0300BF347A /* LaunchScreen.storyboard */,
+				426F12641DAE3A0300BF347A /* Info.plist */,
+				426F12531DAE3A0300BF347A /* Supporting Files */,
+			);
+			path = BookMyDarshan_2;
+			sourceTree = "<group>";
+		};
+		426F12531DAE3A0300BF347A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426F12541DAE3A0300BF347A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		426F126C1DAE3A0400BF347A /* BookMyDarshan_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				426F126D1DAE3A0400BF347A /* BookMyDarshan_2Tests.m */,
+				426F126F1DAE3A0400BF347A /* Info.plist */,
+			);
+			path = BookMyDarshan_2Tests;
+			sourceTree = "<group>";
+		};
+		426F12771DAE3A0400BF347A /* BookMyDarshan_2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				426F12781DAE3A0400BF347A /* BookMyDarshan_2UITests.m */,
+				426F127A1DAE3A0400BF347A /* Info.plist */,
+			);
+			path = BookMyDarshan_2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426F124F1DAE3A0300BF347A /* BookMyDarshan_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426F127D1DAE3A0400BF347A /* Build configuration list for PBXNativeTarget "BookMyDarshan_2" */;
+			buildPhases = (
+				426F124C1DAE3A0300BF347A /* Sources */,
+				426F124D1DAE3A0300BF347A /* Frameworks */,
+				426F124E1DAE3A0300BF347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookMyDarshan_2;
+			productName = BookMyDarshan_2;
+			productReference = 426F12501DAE3A0300BF347A /* BookMyDarshan_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426F12681DAE3A0400BF347A /* BookMyDarshan_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426F12801DAE3A0400BF347A /* Build configuration list for PBXNativeTarget "BookMyDarshan_2Tests" */;
+			buildPhases = (
+				426F12651DAE3A0400BF347A /* Sources */,
+				426F12661DAE3A0400BF347A /* Frameworks */,
+				426F12671DAE3A0400BF347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426F126B1DAE3A0400BF347A /* PBXTargetDependency */,
+			);
+			name = BookMyDarshan_2Tests;
+			productName = BookMyDarshan_2Tests;
+			productReference = 426F12691DAE3A0400BF347A /* BookMyDarshan_2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		426F12731DAE3A0400BF347A /* BookMyDarshan_2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426F12831DAE3A0400BF347A /* Build configuration list for PBXNativeTarget "BookMyDarshan_2UITests" */;
+			buildPhases = (
+				426F12701DAE3A0400BF347A /* Sources */,
+				426F12711DAE3A0400BF347A /* Frameworks */,
+				426F12721DAE3A0400BF347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426F12761DAE3A0400BF347A /* PBXTargetDependency */,
+			);
+			name = BookMyDarshan_2UITests;
+			productName = BookMyDarshan_2UITests;
+			productReference = 426F12741DAE3A0400BF347A /* BookMyDarshan_2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426F12481DAE3A0300BF347A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					426F124F1DAE3A0300BF347A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					426F12681DAE3A0400BF347A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 426F124F1DAE3A0300BF347A;
+					};
+					426F12731DAE3A0400BF347A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 426F124F1DAE3A0300BF347A;
+					};
+				};
+			};
+			buildConfigurationList = 426F124B1DAE3A0300BF347A /* Build configuration list for PBXProject "BookMyDarshan_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426F12471DAE3A0300BF347A;
+			productRefGroup = 426F12511DAE3A0300BF347A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426F124F1DAE3A0300BF347A /* BookMyDarshan_2 */,
+				426F12681DAE3A0400BF347A /* BookMyDarshan_2Tests */,
+				426F12731DAE3A0400BF347A /* BookMyDarshan_2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426F124E1DAE3A0300BF347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426F12631DAE3A0300BF347A /* LaunchScreen.storyboard in Resources */,
+				426F12601DAE3A0300BF347A /* Assets.xcassets in Resources */,
+				426F125E1DAE3A0300BF347A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F12671DAE3A0400BF347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F12721DAE3A0400BF347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426F124C1DAE3A0300BF347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426F125B1DAE3A0300BF347A /* ViewController.m in Sources */,
+				426F12581DAE3A0300BF347A /* AppDelegate.m in Sources */,
+				426F12551DAE3A0300BF347A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F12651DAE3A0400BF347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426F126E1DAE3A0400BF347A /* BookMyDarshan_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F12701DAE3A0400BF347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426F12791DAE3A0400BF347A /* BookMyDarshan_2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426F126B1DAE3A0400BF347A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426F124F1DAE3A0300BF347A /* BookMyDarshan_2 */;
+			targetProxy = 426F126A1DAE3A0400BF347A /* PBXContainerItemProxy */;
+		};
+		426F12761DAE3A0400BF347A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426F124F1DAE3A0300BF347A /* BookMyDarshan_2 */;
+			targetProxy = 426F12751DAE3A0400BF347A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426F125C1DAE3A0300BF347A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426F125D1DAE3A0300BF347A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		426F12611DAE3A0300BF347A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426F12621DAE3A0300BF347A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426F127B1DAE3A0400BF347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		426F127C1DAE3A0400BF347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426F127E1DAE3A0400BF347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookMyDarshan_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "home.BookMyDarshan-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		426F127F1DAE3A0400BF347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookMyDarshan_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "home.BookMyDarshan-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		426F12811DAE3A0400BF347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BookMyDarshan_2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "home.BookMyDarshan-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookMyDarshan_2.app/BookMyDarshan_2";
+			};
+			name = Debug;
+		};
+		426F12821DAE3A0400BF347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BookMyDarshan_2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "home.BookMyDarshan-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookMyDarshan_2.app/BookMyDarshan_2";
+			};
+			name = Release;
+		};
+		426F12841DAE3A0400BF347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BookMyDarshan_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "home.BookMyDarshan-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BookMyDarshan_2;
+			};
+			name = Debug;
+		};
+		426F12851DAE3A0400BF347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BookMyDarshan_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "home.BookMyDarshan-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BookMyDarshan_2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426F124B1DAE3A0300BF347A /* Build configuration list for PBXProject "BookMyDarshan_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426F127B1DAE3A0400BF347A /* Debug */,
+				426F127C1DAE3A0400BF347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426F127D1DAE3A0400BF347A /* Build configuration list for PBXNativeTarget "BookMyDarshan_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426F127E1DAE3A0400BF347A /* Debug */,
+				426F127F1DAE3A0400BF347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		426F12801DAE3A0400BF347A /* Build configuration list for PBXNativeTarget "BookMyDarshan_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426F12811DAE3A0400BF347A /* Debug */,
+				426F12821DAE3A0400BF347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		426F12831DAE3A0400BF347A /* Build configuration list for PBXNativeTarget "BookMyDarshan_2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426F12841DAE3A0400BF347A /* Debug */,
+				426F12851DAE3A0400BF347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 426F12481DAE3A0300BF347A /* Project object */;
+}
